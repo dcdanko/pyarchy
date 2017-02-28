@@ -26,23 +26,20 @@ setup(
     author_email='dcdanko@gmail.com',
     url='https://github.com/dcdanko/py_archy',
     packages=[
-        'py_archy',
+        'pyarchy',
     ],
-    package_dir={'py_archy':
+    package_dir={'pyarchy':
                  'py_archy'},
     include_package_data=True,
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
-    keywords='py_archy',
+    keywords='pyarchy',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
-        "Programming Language :: Python :: 2",
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
