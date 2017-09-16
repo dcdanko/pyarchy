@@ -15,6 +15,16 @@ tree = { 'nodes' : [{ 'nodes' : ['a','b','c'], 'label' : 'bar'}, 'bizz'], 'label
 pyarchy(tree, unicode=False)
 ```
 ### Output:
+With Unicode
+```
+foo
+└─┬ bar 
+  ├── a
+  ├── b
+  └── c
+└── bizz
+```
+With ASCII
 ```
 foo
 +-- bar
@@ -25,7 +35,5 @@ foo
 ```
 
 ### Credits
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+This package was created with Cookiecutter.
 
