@@ -4,6 +4,8 @@
 Implementation of the popular node-archy tool in python.
 Draws good looking trees and lists on the command line.
 
+[The original Archy on NPM](https://www.npmjs.com/package/archy)
+
 * Free software: MIT license
 
 ### Input:
