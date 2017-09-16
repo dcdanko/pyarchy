@@ -9,37 +9,32 @@ Draws good looking trees and lists on the command line.
 
 [The original Archy on NPM](https://www.npmjs.com/package/archy)
 
-### Install
+### Installation
 
 ```
 pip install py_archy
 ```
 
-### Input:
+### Usage
 
 ```
-from pyarchy import archy
+>>> from pyarchy import archy
+>>>
+>>> tree = { 'nodes' : [{ 'nodes' : ['a','b','c'], 'label' : 'bar'}, 'bizz'], 'label' : 'foo'}
+>>>
+>>> print( archy(tree)) 
+foo                                                                   
+├─┬ bar
+│ ├── a
+│ ├── b
+│ └── c
+└── bizz 
 
-tree = { 'nodes' : [{ 'nodes' : ['a','b','c'], 'label' : 'bar'}, 'bizz'], 'label' : 'foo'}
-archy(tree, unicode=False)
-```
-### Output:
-With Unicode
-```
-foo
-└─┬ bar 
-  ├── a
-  ├── b
-  └── c
-└── bizz
-```
-With ASCII
-```
-foo
+>>> print( archy(tree, unicode=False))
 +-- bar
-    +-- a
-    +-- b
-    `-- c
+| +-- a 
+| +-- b                                                                                                   
+| `-- c 
 `-- bizz
 ```
 
