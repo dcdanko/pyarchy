@@ -17,7 +17,7 @@ setup(
     long_description=readme + '\n',
     author="David C. Danko",
     author_email='dcdanko@gmail.com',
-    url='https://github.com/dcdanko/py_archy',
+    url='https://github.com/dcdanko/pyarchy',
     packages=[
         'pyarchy',
     ],
