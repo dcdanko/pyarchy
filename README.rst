@@ -6,29 +6,30 @@ py_archy
 .. image:: https://img.shields.io/pypi/v/py_archy.svg
         :target: https://pypi.python.org/pypi/py_archy
 
-.. image:: https://img.shields.io/travis/dcdanko/py_archy.svg
-        :target: https://travis-ci.org/dcdanko/py_archy
 
-.. image:: https://readthedocs.org/projects/py-archy/badge/?version=latest
-        :target: https://py-archy.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
+Implementation of the popular node-archy tool in python.
 
-.. image:: https://pyup.io/repos/github/dcdanko/py_archy/shield.svg
-     :target: https://pyup.io/repos/github/dcdanko/py_archy/
-     :alt: Updates
-
-
-Implementation of the popular node-archy tool in python
-
+Draws good looking trees and lists on the command line.
 
 * Free software: MIT license
 * Documentation: https://py-archy.readthedocs.io.
 
+Input:
 
-Features
---------
+```
+from pyarchy import pyarchy
 
-* TODO
+tree = { 'nodes' : [{ 'nodes' : ['a','b','c'], 'label' : 'bar'}, 'bizz'], 'label' : 'foo'}
+pyarchy(tree, unicode=False)
+```
+Output:
+
+foo
++-- bar
+    +-- a
+    +-- b
+    `-- c
+`-- bizz
 
 Credits
 ---------
