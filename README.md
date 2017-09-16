@@ -9,13 +9,19 @@ Draws good looking trees and lists on the command line.
 
 [The original Archy on NPM](https://www.npmjs.com/package/archy)
 
+### Install
+
+```
+pip install py_archy
+```
+
 ### Input:
 
 ```
-from pyarchy import pyarchy
+from pyarchy import archy
 
 tree = { 'nodes' : [{ 'nodes' : ['a','b','c'], 'label' : 'bar'}, 'bizz'], 'label' : 'foo'}
-pyarchy(tree, unicode=False)
+archy(tree, unicode=False)
 ```
 ### Output:
 With Unicode
