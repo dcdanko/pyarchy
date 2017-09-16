@@ -12,7 +12,7 @@ requirements = [
 
 setup(
     name='py_archy',
-    version='1.0.0',
+    version='1.0.1',
     description="Implementation of the popular node-archy tool in python",
     long_description=readme + '\n',
     author="David C. Danko",
