@@ -32,7 +32,7 @@ def archy( obj, prefix='', unicode=True):
         out = []
         for i, node in enumerate(nodes):
             last = i == len(nodes) -1
-            more = ('nodes' in node) and len(node['nodes']) 
+            more = (type(node) != str) and ('nodes' in node) and len(node['nodes']) 
             prefix_ = prefix + chr('\u2502') + ' '
             if last:
                 prefix_ = prefix + '  '
