@@ -6,6 +6,7 @@ Draws good looking trees and lists on the command line.
 
 [![PyPI](https://img.shields.io/pypi/v/py_archy.svg)](https://pypi.python.org/pypi?name=py_archy&:action=display)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![Build Status](https://travis-ci.org/dcdanko/pyarchy.svg?branch=master)](https://travis-ci.org/dcdanko/pyarchy)
 
 [The original Archy on NPM](https://www.npmjs.com/package/archy)
 
